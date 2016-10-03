@@ -6,5 +6,8 @@ Requires
 - pandas  
 - blastp that is command line accessible  
 
-Input  
-- Annotated genome fasta files  
+build_blast.py Input  
+- Annotated genome fasta files
+
+genbank_build_blast.py input
+- genbank files
