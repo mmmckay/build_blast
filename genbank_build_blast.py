@@ -18,6 +18,7 @@ gbk_files = glob.glob('*.gb*')
 for file in gbk_files:
     os.rename(base+file,base+'/genbanks/'+file.replace(' ','_'))
 os.chdir(base+'/genbanks')
+gbk_files = glob.glob('*.gb*')
 
 seqids = []
 
